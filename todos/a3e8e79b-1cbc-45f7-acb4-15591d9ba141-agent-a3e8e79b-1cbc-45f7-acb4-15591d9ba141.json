@@ -1,0 +1,27 @@
+[
+  {
+    "content": "建立 Claude 配置 Git 倉庫結構",
+    "status": "completed",
+    "activeForm": "建立 Claude 配置 Git 倉庫結構"
+  },
+  {
+    "content": "下載並整理 77 個標準 agents",
+    "status": "completed",
+    "activeForm": "下載並整理 77 個標準 agents"
+  },
+  {
+    "content": "創建專案配置檔案和遷移腳本",
+    "status": "completed",
+    "activeForm": "創建專案配置檔案和遷移腳本"
+  },
+  {
+    "content": "設置 Git 倉庫並推送到 GitHub",
+    "status": "in_progress",
+    "activeForm": "設置 Git 倉庫並推送到 GitHub"
+  },
+  {
+    "content": "撰寫完整的使用和遷移說明文檔",
+    "status": "pending",
+    "activeForm": "撰寫完整的使用和遷移說明文檔"
+  }
+]

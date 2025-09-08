@@ -1,0 +1,46 @@
+project_type: "Web API"
+description: "RESTful API 後端開發專案"
+
+# 推薦的 agents (從 77 個中精選)
+recommended_agents:
+  core:
+    - "backend-architect"    # 後端架構設計
+    - "api-documenter"      # API 文檔專家  
+    - "python-pro"          # Python 開發專家
+    - "database-designer"   # 資料庫設計師
+
+  advanced:
+    - "performance-optimizer" # 效能優化
+    - "security-analyst"     # 安全分析師
+    - "test-engineer"        # 測試工程師
+    - "devops-engineer"      # DevOps 部署
+
+  optional:
+    - "code-reviewer"        # 代碼審查
+    - "technical-writer"     # 技術文檔
+
+# 專案檢測規則
+detection_patterns:
+  files:
+    - "requirements.txt"
+    - "main.py" 
+    - "app.py"
+    - "manage.py"
+    - "alembic.ini"
+  dependencies:
+    - "fastapi"
+    - "django"
+    - "flask"
+    - "starlette"
+  directories:
+    - "app/"
+    - "api/"
+    - "routers/"
+    - "endpoints/"
+
+# 專案特定提示詞
+context_hints:
+  - "專注於 REST API 設計模式"
+  - "重視資料庫關係設計"
+  - "強調 API 文檔和測試"
+  - "考慮認證和授權機制"

@@ -1,0 +1,51 @@
+project_type: "Machine Learning"
+description: "機器學習和 AI 專案"
+
+# 推薦的 agents
+recommended_agents:
+  core:
+    - "ml-engineer"         # 機器學習工程師
+    - "data-scientist"      # 資料科學家
+    - "python-pro"          # Python 專家
+    - "research-assistant"  # 學術研究助手
+
+  advanced:
+    - "performance-optimizer" # 模型優化
+    - "docker-specialist"    # 容器化部署
+    - "gpu-optimizer"        # GPU 優化專家
+    - "model-validator"      # 模型驗證專家
+
+  optional:
+    - "visualization-expert" # 資料視覺化
+    - "academic-writer"      # 學術寫作
+
+# 檢測規則
+detection_patterns:
+  files:
+    - "requirements.txt"
+    - "environment.yml"
+    - "train.py"
+    - "model.py"
+    - "data_loader.py"
+    - "config.yaml"
+  dependencies:
+    - "torch"
+    - "pytorch" 
+    - "tensorflow"
+    - "sklearn"
+    - "pandas"
+    - "numpy"
+    - "matplotlib"
+  directories:
+    - "models/"
+    - "data/"
+    - "notebooks/"
+    - "experiments/"
+    - "datasets/"
+
+# 特定提示
+context_hints:
+  - "重視資料前處理和特徵工程"
+  - "強調模型架構和超參數調優"
+  - "考慮模型評估和驗證策略"
+  - "注意 GPU 記憶體管理和效能"
