@@ -1,8 +1,14 @@
 # Claude 配置 Git 忽略文件
 
 # 不同步的專案特定資料
-projects/*/conversations/
-projects/*/*.jsonl
+projects/
+ide/
+shell-snapshots/
+statsig/
+todos/
+
+# 外掛配置 (可能包含個人設定)
+plugins/
 
 # 日誌文件
 *.log
