@@ -12,10 +12,13 @@
 
 ## 🚀 快速開始
 
-### 新機器設置
+### 一鍵安裝
 ```bash
-# 克隆配置到新機器
+# 在任何新機器上執行（推薦）
 bash <(curl -s https://raw.githubusercontent.com/r90941022/claude-config/main/migration/sync-setup.sh)
+
+# 或手動克隆
+git clone https://github.com/r90941022/claude-config.git ~/.claude
 ```
 
 ### 使用方法

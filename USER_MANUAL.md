@@ -46,13 +46,13 @@ Claude AI Assistant
 
 ### 安裝流程
 
-**方法 A：新機器一鍵安裝**
+**推薦：一鍵自動安裝**
 ```bash
-# 執行自動安裝腳本
+# 執行自動安裝腳本（推薦）
 bash <(curl -s https://raw.githubusercontent.com/r90941022/claude-config/main/migration/sync-setup.sh)
 ```
 
-**方法 B：手動安裝**
+**或者手動安裝**
 ```bash
 # 1. 克隆配置倉庫
 git clone https://github.com/r90941022/claude-config.git ~/.claude
